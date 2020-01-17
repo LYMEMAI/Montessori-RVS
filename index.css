@@ -29,6 +29,7 @@ a:hover {
 }
 .menu {
   margin-top: 15px;
+  margin-left: 40px;
 }
 .menu > li {
   display: inline;
