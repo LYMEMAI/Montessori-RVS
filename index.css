@@ -40,8 +40,6 @@ a:hover {
 .dropdown:hover .features-menu,.dropdown:focus .features-menu,.dropdown:active .features-menu {
   display: flex;
   flex-direction: column;
-  display: flex;
-  flex-direction: column;
   background-color: #D6E9FE;
   border-radius: 5px;
   padding-top: 60px;

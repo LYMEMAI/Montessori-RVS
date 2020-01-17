@@ -5,13 +5,21 @@
   <meta charset="utf-8">
   <title>Montessori Refik Veseli Schule</title>
   <link href='index.css' rel='stylesheet' />
+  <script language="javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelector('.dropdown').addEventListener('click', _ => {
+        document.querySelector('.dropdown').focus();
+      });
+    }, false);
+  </script>
+
 </head>
 
 <body>
   <div class='header'>
     <div class='logo'><a href='index.html'><img width="250px" src='montessori-logo.svg' /></a></div>
     <ul class='menu'>
-      <li class='dropdown' onclick=""><span>Unsere Projekte▾</span>
+      <li class='dropdown'><span>Unsere Projekte▾</span>
         <ul class='features-menu'>
           <li><a href='unterpage-bsp-projekte.html'>Ist teuer immer besser?</a></li>
           <li><a href='#'>Projekt 2</a></li>
@@ -19,7 +27,7 @@
         </ul>
       </li>
       <li><a href='unterpage-ueberuns.html'>Über uns</a></li>
-      <li><a href='#'>Sonstiges</a></li>
+      <li><a href='unterpage-sonstiges.html'>Sonstiges</a></li>
       <li><a href='unterpage-kontakt.html'>Kontakt</a></li>
     </ul>
   </div>
