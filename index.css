@@ -37,7 +37,7 @@ a:hover {
 .menu > li:last-of-type {
   margin-right: 0;
 }
-.dropdown:hover .features-menu,.dropdown:active .features-menu,.dropdown:focus .features-menu {
+.dropdown:hover .features-menu,.dropdown:focus .features-menu,.dropdown:active .features-menu {
   display: flex;
   flex-direction: column;
   display: flex;
